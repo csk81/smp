@@ -1,0 +1,229 @@
+html{
+    scroll-behavior: smooth;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(to left, #1dc1ea 0%, #C0E8FF 100%);
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    left: 0%;
+    height: 15%;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+   }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(65, 64, 64);
+    text-align: center;
+    padding: 35px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  li a:hover {
+    color: #fcf5f5;
+  }
+  #smp{
+   float: left;
+   position: fixed;
+            top: 10px;
+          left: 50px;
+          color: rgb(65, 64, 64);
+   }
+  #st{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 101%;
+    left: 0%;
+    background-color: #1dc1ea;
+    border-radius: 25px;
+     
+  }
+  #nd{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 202%;
+    left: 0%;
+    background-color: #C0E8FF;
+    border-radius: 25px;
+      
+  }
+  #pa{
+    font-size: 25px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+   color: #36282d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #over{
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    top: 15%;
+    left: 43%;
+    
+  }
+  #over:after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        width: 100%;
+        height: 4px;
+        background: #ea1d6f;
+      }
+  #bk{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    background-color: rgba(255, 255, 255, 0.856);
+    border-radius: 25px;
+      
+  }
+  #img{
+   width: 100%;
+   height: 100%;
+   opacity: 15%;
+   position: relative;
+   top: 0%;
+   left: 0%;
+  }
+  #img2{
+    width: 40%;
+    height: 60%;
+    position: absolute;
+    top: 5%;
+    left: 31%;
+  }
+  
+  #button{
+     
+   padding: 15px;
+    position: absolute;
+    top: 70%;
+    left: 46.5%;
+    background-color: rgb(59, 59, 59); 
+    color: rgb(255, 255, 255); 
+    border: 3px solid rgb(59, 59, 59);
+    border-radius: 20px;
+    text-decoration: none;
+  }
+  #button:hover{
+    background-color: whitesmoke;
+    color:rgb(59, 59, 59);
+  }
+  #l1{
+    font-size: 25px;
+    position: absolute;
+    top: 27%;
+    left: 8%;
+    font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      letter-spacing: 1px;
+  }
+  
+  #l2{
+    font-size: 25px;
+    position: absolute;
+    top: 27%;
+    left: 58%;
+    font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      letter-spacing: 1px;
+  }
+  #l3{
+    font-size: 25px;
+    position: absolute;
+    top: 85%;
+    left: 43%;
+    font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      letter-spacing: 1px;
+  }
+  #wa{
+    position: fixed;
+    right: 3%;
+    bottom: 2%;
+  }
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  #wa .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    height: 80px;
+    background-color: rgb(59, 59, 59);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  #wa  .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(59, 59, 59) transparent transparent transparent;
+  }
+  
+  #wa:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  #del{
+    font-size: 40px;
+    position: absolute;
+    top: 5%;
+    left: 39%;
+    font-family: Garamond, serif;
+    color: rgb(43, 41, 41);
+  }
+  #hl{
+    width: 30%;
+    position: absolute;
+    top: 17%;
+    left: 36%;
+    border: 2px dashed rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+  #del:after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        width: 100%;
+        height: 4px;
+        background: #ea1d6f;
+      }

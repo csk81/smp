@@ -1,0 +1,6 @@
+move to virtual environment - env\Scripts\activate
+run - py main.py
+requires xampp or mysql and apache server
+
+
+admin password = admin123
